@@ -100,13 +100,11 @@ Install away from windows and  doors and do not place within the proximity of pe
 
 # License Information
 
-Two different licenses for our files — one for design files and one for code.
-
 ## Concept, 3D Print, 2D Watch Face 
 
-**Project files such as 3D Print and 2D Design and Concept files are released under [Creative Commons Share-alike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/).**
+Project files such as 3D Print and 2D Design and Concept files are released under [Creative Commons Share-alike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)
 
-Note: This is a human-readable summary of (and not a substitute for) the [license](http://creativecommons.org/licenses/by-sa/4.0/legalcode).
+Note: Below is a human-readable summary of and not a substitute for the [license](http://creativecommons.org/licenses/by-sa/4.0/legalcode)
 
 #### You are free to:
 
@@ -124,7 +122,7 @@ The licensor cannot revoke these freedoms as long as you follow the license term
 
 ## Software Code 
 
-**Software is released under the MIT License(http://opensource.org/licenses/MIT).**
+**Software is released under the MIT License (http://opensource.org/licenses/MIT).**
 
 The MIT License (MIT)
 
