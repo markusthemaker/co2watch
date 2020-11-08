@@ -4,14 +4,14 @@
 ![Image](img/header.jpg)
 
 ## Background
-“Aerosols are a possible transmission path of the novel coronavirus. Aerosols spread quickly throughout the entire room, especially in closed indoor spaces. Regular ventilation by shock and cross ventilation or via ventilation systems can significantly reduce the risk of infection with SARS-CoV-2” [[Source]](https://www.umweltbundesamt.de/en/press/pressinformation/proper-airing-reduces-risk-of-sars-cov-2-infection)
+“Aerosols are a possible transmission path of the novel coronavirus. Aerosols spread quickly throughout the entire room, especially in closed indoor spaces. Regular ventilation by shock and cross ventilation or via ventilation systems can significantly reduce the risk of infection with SARS-CoV-2.” [[Source]](https://www.umweltbundesamt.de/en/press/pressinformation/proper-airing-reduces-risk-of-sars-cov-2-infection)
 
 Every person is emitting CO2 as well as aerosols while breathing. CO2 concentration correlates with the aerosol and thus virus concentration. CO2 is also a good indicator for the efficiency of the ventilation. 
 <p align="center">
 <img src="img/CO2Virus.jpeg" width="800" />
+  
+Figue: Modelling Co2 concentration (solid) and virus load (dotted) in a classroom with (blue) and without ventilation (yellow). <a href="https://depositonce.tu-berlin.de/bitstream/11303/11478.3/9/hartmann_kriegel_2020_en_v3.pdf">[Source: http://dx.doi.org/10.14279/depositonce-10362.3]</a>
 </p>
-*Modelling Co2 concentration (solid) and virus concentration (dotted) of a classroom with (blue) and without ventilation (yellow).*
-<a href="https://depositonce.tu-berlin.de/bitstream/11303/11478.3/9/hartmann_kriegel_2020_en_v3.pdf">[Source: http://dx.doi.org/10.14279/depositonce-10362.3]</a>
 
 ## Why a CO2 Monitor? 
 We can all assess and gauge air quality when entering a room (from the outside). However, humans have no means to objectively judge air quality after a short time, given our senses adapt quickly to a situation. [3] Most people do not even notice the incremental worsening of air quality and see no good reason to vent a room often.
