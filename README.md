@@ -72,10 +72,10 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 
 ![Image](img/cad.jpg)
 
-
 ## Watch Face Design
-- Link to pdf
+- Link to pdf and Apple Keynote file: [2D Design Files](2D_Watchface/)
 - Best printed on semi-transparent paper; cut-out and place in front of 3D print
+![Image](img/watchface.jpg)
 
 ## Assembly
 It is strongly advised to wire up the components step-by-step, and testing each added functionaly with the debug code snippets in the ino file. After each functional entity is tested, the full assembly is fully operational on a breadboard. At this point the transfer into the 3D printed housing can begin :)  
