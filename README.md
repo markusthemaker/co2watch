@@ -1,4 +1,6 @@
 # CO2 Monitor as a Wall Clock
+![Image](img/header.jpg)
+
 #### Proper airing reduces risk of SARS-CoV-2 infection
 
 ## Background
