@@ -75,6 +75,7 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 ## Assembly
 - It is advised to step-by-step wire up the CO2 Monitor, and testing each added item with the debug code snippets 
 - Step-by-Step assembly
+![Image](img/build.jpg)
 
 ## Operation
 
