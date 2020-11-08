@@ -71,7 +71,7 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 - Designed for LEDs to function like an “analogue wach”, hosting all components, while fitting into the picture frame. CO2 sensor mount with open air vents. 
 - Design principle: “quick & dirty”, but functional ;)
 - Link to my Onshape 3D CAD file: https://cad.onshape.com/documents/eb4fe6fd7e007a0c0a804747/w/9b61381e8207a3fee56fc157/e/aed4f8af9d3ca59d0a31d5e0
-- Link to STLs
+- Link to STLs: [3D_STL_Files](3D_STL_Files/)
 
 ![Image](img/cad.jpg)
 
