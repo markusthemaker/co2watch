@@ -54,9 +54,11 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 
 ## Schematics & Design Considerations
 - Button needs to be connected to an Arduino input supporting interrupts (D2 or D3).
-- Sensirion SCD 30 can be read-out via PWM, UART, or via an I2C bus (used here).
+- Sensirion SCD 30 can be read-out via PWM, Modbus, or via an I2C bus (used here).
 - Data input of Adafruit Neo Pixel LED ring shall be protected with a 470Ω resistor, and DC connection buffered with a 470-1000 µF capacitor. 
 - Buzzer is driven directly by low power Arduino output, resulting in a low volume tone. Alternatively a MOSFET driver circuit could be integrated.  
+- ![Image](img/wiring.jpg)
+
 
 ### Arduino Nano Pinout Reference 
 - Used pinouts highlighted: 
