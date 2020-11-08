@@ -78,10 +78,14 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 
 ![Image](img/watchface.jpg)
 
-## Assembly
+## Component Test
 It is strongly advised to wire up the components step-by-step, and testing each added functionaly with the debug code snippets in the ino file. After each functional entity is tested, the full assembly is fully operational on a breadboard. At this point the transfer into the 3D printed housing can begin :)  
 
 ![Image](img/build.jpg)
+
+## Assembly
+
+![Image](img/assembly.jpg)
 
 ## Operation
 
