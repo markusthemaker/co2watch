@@ -70,6 +70,8 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 - Design principle: “quick & dirty”, but functional ;)
 - Link to my Onshape 3D CAD file: https://cad.onshape.com/documents/eb4fe6fd7e007a0c0a804747/w/9b61381e8207a3fee56fc157/e/aed4f8af9d3ca59d0a31d5e0
 - Link to STLs
+![Image](img/cad.jpg)
+
 
 ## Watch Face Design
 - Link to pdf
@@ -78,7 +80,6 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 ## Assembly
 - It is advised to step-by-step wire up the CO2 Monitor, and testing each added item with the debug code snippets 
 - Step-by-Step assembly
-
 ![Image](img/build.jpg)
 
 ## Operation
