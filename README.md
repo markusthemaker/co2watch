@@ -1,7 +1,6 @@
 # CO2 Monitor as a Wall Clock
-![Image](img/header.jpg)
-
 #### Proper airing reduces risk of SARS-CoV-2 infection
+![Image](img/header.jpg)
 
 ## Background
 “Aerosols are a possible transmission path of the novel coronavirus. Aerosols spread quickly throughout the entire room, especially in closed indoor spaces. Regular ventilation by shock and cross ventilation or via ventilation systems can significantly reduce the risk of infection with SARS-CoV-2” [1]
@@ -75,6 +74,7 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 ## Assembly
 - It is advised to step-by-step wire up the CO2 Monitor, and testing each added item with the debug code snippets 
 - Step-by-Step assembly
+
 ![Image](img/build.jpg)
 
 ## Operation
