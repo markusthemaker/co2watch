@@ -57,7 +57,7 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 
 ## Schematics & Design Considerations
 - Button needs to be connected to an Arduino pin supporting interrupts (D2 or D3).
-- Sensirion SCD 30 can be read-out via PWM, Modbus, or via an I2C bus (used here). Datasheet: https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Datasheet.pdf
+- Sensirion SCD 30 can be read-out via PWM, Modbus, or via an I2C bus (used here). [Datasheet](https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Datasheet.pdf)
 - Data input of Adafruit Neo Pixel LED ring shall be protected with a 470Ω resistor, and DC connection buffered with a 470-1000 µF capacitor. 
 - Buzzer is driven directly by low power Arduino output. For more power, a MOSFET driver circuit could be integrated.  
 - Schmatic and wiring diagram below, incl. a pinout of the used Arduino Nano.
@@ -67,7 +67,7 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 ## 3D CAD Design & 3D Print
 - Designed for LEDs to function like an “analogue wach”, hosting all components, while fitting into the picture frame. CO2 sensor mount with open air vents. 
 - Design principle: “quick & dirty”, but functional ;)
-- Link to my Onshape 3D CAD file: https://cad.onshape.com/documents/eb4fe6fd7e007a0c0a804747/w/9b61381e8207a3fee56fc157/e/aed4f8af9d3ca59d0a31d5e0
+- Link to my 3D CAD design: [Onshape](https://cad.onshape.com/documents/eb4fe6fd7e007a0c0a804747/w/9b61381e8207a3fee56fc157/e/aed4f8af9d3ca59d0a31d5e0)
 - Link to STLs: [3D_STL_Files](3D_STL_Files/)
 
 ![Image](img/cad.jpg)
