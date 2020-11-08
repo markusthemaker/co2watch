@@ -22,6 +22,8 @@ Most CO2 monitors use a (small) digital display that requires your attention to 
 
 Indoors, concentrations below 600 ppm are of short nature, and exceeding 1’000 ppm suggests inadequate ventilation. Therefore the range from 600-1750 ppm is more than sufficient for indoor operation. 
 
+![Image](img/night.jpg)
+
 Moreover, the ppm concentration is color coded and shall relate to the importance to air the room; green-amber-red-purple. 
 
 In the center of the watch face a red/green status LED indicates if a warning buzzer is active or not. If active, the buzzer sends a 50 ms signal every 3 minutes when hitting 1000 ppm, and with increasing concentration warns more often; at 1'750 ppm the buzzer is activated every 10 seconds. 
