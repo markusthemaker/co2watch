@@ -9,8 +9,8 @@ Every person is emitting CO2 as well as aerosols while breathing. CO2 concentrat
 <p align="center">
 <img src="img/CO2Virus.jpeg" width="800" />
 </p>
-*Modelling Co2 concentration (solid) and virus concentration (dotted) of a classroom with (blue) and without ventilation (yellow). 
-[Adapted from http://dx.doi.org/10.14279/depositonce-10362.3](https://depositonce.tu-berlin.de/bitstream/11303/11478.3/9/hartmann_kriegel_2020_en_v3.pdf)*
+*Modelling Co2 concentration (solid) and virus concentration (dotted) of a classroom with (blue) and without ventilation (yellow).*
+[Adapted from http://dx.doi.org/10.14279/depositonce-10362.3](https://depositonce.tu-berlin.de/bitstream/11303/11478.3/9/hartmann_kriegel_2020_en_v3.pdf)
 
 ## Why a CO2 Monitor? 
 We can all assess and gauge air quality when entering a room (from the outside). However, humans have no means to objectively judge air quality after a short time, given our senses adapt quickly to a situation. [3] Most people do not even notice the incremental worsening of air quality and see no good reason to vent a room often.
