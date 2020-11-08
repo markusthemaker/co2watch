@@ -75,6 +75,7 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 ## Watch Face Design
 - Link to pdf and Apple Keynote file: [2D Design Files](2D_Watchface/)
 - Best printed on semi-transparent paper; cut-out and place in front of 3D print
+
 ![Image](img/watchface.jpg)
 
 ## Assembly
