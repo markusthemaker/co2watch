@@ -7,7 +7,8 @@
 “Aerosols are a possible transmission path of the novel coronavirus. Aerosols spread quickly throughout the entire room, especially in closed indoor spaces. Regular ventilation by shock and cross ventilation or via ventilation systems can significantly reduce the risk of infection with SARS-CoV-2” [1]
 
 Every person is emitting CO2 as well as aerosols while breathing. CO2 concentration correlates with the aerosol and thus virus concentration. CO2 is also a good indicator for the efficiency of the ventilation. 
-![Image](img/CO2Virus.jpeg)
+<img src="img/CO2Virus.jpeg" width="800" />
+
 *Modelling Co2 concentration (solid) and virus concentration (dotted) of a classroom with (blue) and without ventilation (yellow). [Adapted from http://dx.doi.org/10.14279/depositonce-10362.3](https://depositonce.tu-berlin.de/bitstream/11303/11478.3/9/hartmann_kriegel_2020_en_v3.pdf)*
 
 ## Why a CO2 Monitor? 
@@ -18,7 +19,7 @@ Air quality cannot be measured directly, but CO2 concentration is the most impor
 A CO2 monitor helps to keep a room well-vented and is thought a mandatory utility during the pandemic.
 
 ## Design Considerations 
-Most CO2 monitors use a (small) digital display that requires your attention to read the CO2 concentra-tion. In this design the concept of a wall clock was chosen for direct visual feedback and intuitive reading. It is well suited for schools, offices and private buildings.
+Most CO2 monitors use a (small) digital display that requires your attention to read the CO2 concentration. In this design the concept of a wall clock was chosen for direct visual feedback and intuitive reading. It is well suited for schools, offices and private buildings.
 
 Indoors, concentrations below 600 ppm are of short nature, and exceeding 1’000 ppm suggests inadequate ventilation. Therefore the range from 600-1750 ppm is more than sufficient for indoor operation. 
 
