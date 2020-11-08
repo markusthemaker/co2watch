@@ -14,9 +14,9 @@ Figue: Modelling Co2 concentration (solid) and virus load (dotted) in a classroo
 </p>
 
 ## Why a CO2 Monitor? 
-We can all assess and gauge air quality when entering a room (from the outside). However, humans have no means to objectively judge air quality after a short time, given our senses adapt quickly to a situation. [3] Most people do not even notice the incremental worsening of air quality and see no good reason to vent a room often.
+We can all assess and gauge air quality when entering a room (from the outside). However, humans have no means to objectively judge air quality after a short time, given our senses adapt quickly to a situation [Source](https://en.wikipedia.org/wiki/Neural_adaptation). Most people do not even notice the incremental worsening of air quality and see no good reason to vent a room often.
 
-Air quality cannot be measured directly, but CO2 concentration is the most important proxy. Outside air has typically CO2 concentration of around 410 ppm. The concentration of exhaled CO2 is in the excess of approx. 38’000 ppm. Indoor CO2 level considered acceptable is 1’000 ppm, a level that is reached in a room quickly. [4]
+Air quality cannot be measured directly, but CO2 concentration is the most important proxy. Outside air has typically CO2 concentration of around 410 ppm. The concentration of exhaled CO2 is in the excess of approx. 38’000 ppm. Indoor CO2 level considered acceptable is 1’000 ppm, a level that is reached in a room quickly [Source](https://en.wikipedia.org/wiki/Indoor_air_quality)
 
 A CO2 monitor helps to keep a room well-vented and is thought a mandatory utility during the pandemic.
 
@@ -34,7 +34,7 @@ In the center of the watch face a red/green status LED indicates if a warning bu
 The buzzer can be turned off/on with a small button that is located nearby the buzzer. Recommen-dation is to keep the buzzer active at all times. 
 
 ## Features
-- **Accurate:** NDIR CO2 sensor with +/-30ppm +5ppm (calibrated) 
+- **Accurate:** NDIR CO2 sensor with +/-30ppm +5ppm (calibrated)
 - **Visual:** Display CO2 concentration on a watch face. Range: <=6 to >=17.5 (x100ppm) 
 - **Intuitive:** RGB LED relates to CO2 ppm concentration (green-amber-red-purple) 
 - **24/7 Operation:** Light sensitive resistor (LDR) adapts brightness of LEDs 
@@ -56,16 +56,13 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 - PLS or PETG 3D Printed watch face and backdrop (~5€)
 
 ## Schematics & Design Considerations
-- Button needs to be connected to an Arduino input supporting interrupts (D2 or D3).
-- Sensirion SCD 30 can be read-out via PWM, Modbus, or via an I2C bus (used here).
+- Button needs to be connected to an Arduino pin supporting interrupts (D2 or D3).
+- Sensirion SCD 30 can be read-out via PWM, Modbus, or via an I2C bus (used here). Datasheet: https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/9.5_CO2/Sensirion_CO2_Sensors_SCD30_Datasheet.pdf
 - Data input of Adafruit Neo Pixel LED ring shall be protected with a 470Ω resistor, and DC connection buffered with a 470-1000 µF capacitor. 
-- Buzzer is driven directly by low power Arduino output, resulting in a low volume tone. Alternatively a MOSFET driver circuit could be integrated.  
+- Buzzer is driven directly by low power Arduino output. For more power, a MOSFET driver circuit could be integrated.  
+- Schmatic and wiring diagram below, incl. a pinout of the used Arduino Nano.
 
 ![Image](img/wiring.jpg)
-
-
-### Arduino Nano Pinout Reference 
-- Used pinouts highlighted: 
 
 ## 3D CAD Design & 3D Print
 - Designed for LEDs to function like an “analogue wach”, hosting all components, while fitting into the picture frame. CO2 sensor mount with open air vents. 
@@ -112,32 +109,3 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src/CO2Virus.jpeg)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/markusthemaker/co2watch/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
