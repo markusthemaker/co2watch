@@ -1,5 +1,6 @@
-# CO2 Monitor as a Wall Clock
-#### Proper airing reduces risk of SARS-CoV-2 infection
+# CO2 Wall Clock 
+## Arduino powered CO2 Monitor for Schools, Offices, and Private Buildings
+### Proper airing not ensures well-being, but significantly reduces risk of SARS-CoV-2 infection
 ![Image](img/header.jpg)
 
 ## Background
