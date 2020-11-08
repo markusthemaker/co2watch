@@ -1,8 +1,12 @@
-## Welcome to GitHub Pages
+# CO2 Monitor as a Wall Clock
+### Proper airing reduces risk of SARS-CoV-2 infection
 
-You can use the [editor on GitHub](https://github.com/markusthemaker/co2watch/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+## Background
+“Aerosols are a possible transmission path of the novel coronavirus. Aerosols spread quickly throughout the entire room, especially in closed indoor spaces. Regular ventilation by shock and cross ventilation or via ventilation systems can significantly reduce the risk of infection with SARS-CoV-2” [1]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Every person is emitting CO2 as well as aerosols while breathing. CO2 concentration correlates with the aerosol and thus virus concentration. CO2 is also a good indicator for the efficiency of the ventilation. 
+
+Figure: Modelling Co2 concentration (solid) and virus concentration (dotted) of a classroom with (blue) and without ventilation (yellow) [2].
 
 ### Markdown
 
