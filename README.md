@@ -24,9 +24,9 @@ Most CO2 monitors use a (small) digital display that requires your attention to 
 
 Indoors, concentrations below 600 ppm are of short nature, and exceeding 1’000 ppm suggests inadequate ventilation. Therefore the range from 600-1750 ppm is more than sufficient for indoor operation. 
 
-![Image](img/night.jpg)
-
 Moreover, the ppm concentration is color coded and shall relate to the importance to air the room; green-amber-red-purple. 
+
+![Image](img/night.jpg)
 
 In the center of the watch face a red/green status LED indicates if a warning buzzer is active or not. If active, the buzzer sends a 50 ms signal every 3 minutes when hitting 1000 ppm, and with increasing concentration warns more often; at 1'750 ppm the buzzer is activated every 10 seconds. 
 
@@ -59,7 +59,8 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 - Sensirion SCD 30 can be read-out via PWM, Modbus, or via an I2C bus (used here).
 - Data input of Adafruit Neo Pixel LED ring shall be protected with a 470Ω resistor, and DC connection buffered with a 470-1000 µF capacitor. 
 - Buzzer is driven directly by low power Arduino output, resulting in a low volume tone. Alternatively a MOSFET driver circuit could be integrated.  
-- ![Image](img/wiring.jpg)
+
+![Image](img/wiring.jpg)
 
 
 ### Arduino Nano Pinout Reference 
@@ -70,6 +71,7 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 - Design principle: “quick & dirty”, but functional ;)
 - Link to my Onshape 3D CAD file: https://cad.onshape.com/documents/eb4fe6fd7e007a0c0a804747/w/9b61381e8207a3fee56fc157/e/aed4f8af9d3ca59d0a31d5e0
 - Link to STLs
+
 ![Image](img/cad.jpg)
 
 
@@ -78,8 +80,8 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 - Best printed on semi-transparent paper; cut-out and place in front of 3D print
 
 ## Assembly
-- It is advised to step-by-step wire up the CO2 Monitor, and testing each added item with the debug code snippets 
-- Step-by-Step assembly
+It is strongly advised to wire up the components step-by-step, and testing each added functionaly with the debug code snippets in the ino file. After each functional entity is tested, the full assembly is fully operational on a breadboard. At this point the transfer into the 3D printed housing can begin :)  
+
 ![Image](img/build.jpg)
 
 ## Operation
