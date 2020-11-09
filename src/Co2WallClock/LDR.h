@@ -1,8 +1,6 @@
 #ifndef _LDR_H_
 #define _LDR_H_
 
-#include <Arduino.h>
-
 //Enum to track day period: day, evening, and night
 enum class DayPeriod { DAY, EVENING, NIGHT };
 
