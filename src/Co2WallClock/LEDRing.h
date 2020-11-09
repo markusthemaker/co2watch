@@ -22,8 +22,8 @@ class LEDRing {
     //Empirical brightness values
     void setBrightness(DayPeriod period) {
       switch (period) {
-        case (DayPeriod::NIGHT): _strip.setBrightness(5); break;
-        case (DayPeriod::EVENING): _strip.setBrightness(50); break;
+        case (DayPeriod::NIGHT): _strip.setBrightness(4); break;
+        case (DayPeriod::EVENING): _strip.setBrightness(75); break;
         case (DayPeriod::DAY): _strip.setBrightness(255);
       }
     }

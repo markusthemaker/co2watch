@@ -1,6 +1,8 @@
 #ifndef _LDR_H_
 #define _LDR_H_
 
+#include <Arduino.h>
+
 //Enum to track day period: day, evening, and night
 enum class DayPeriod { DAY, EVENING, NIGHT };
 
@@ -16,8 +18,7 @@ class LDR {
     //LDR Type GL5528
     //Datasheet https://cdn.sparkfun.com/datasheets/Sensors/LightImaging/SEN-09088.pdf
     const unsigned int _LDR_day = 2; //kOhm
-    const unsigned int _LDR_evening = 10; //kOhm
-    const unsigned int _LDR_night = 50; //kOhm
+    const unsigned int _LDR_evening = 20; //kOhm
 
   public:
 
@@ -41,8 +42,11 @@ class LDR {
 
     unsigned int findR2() {
       //Voltage Divider: R2 = (V2 x R1) / (V1 - V2)
-      unsigned int v2 = readVoltage();
-      return (v2 * _r1) / (_v1 - v2); //return R2 in kOhm (as int)
+      unsigned int v2 = readVoltage(); //ADC @ 10 bits
+      unsigned int delta = _v1 - v2; //(Range 0-1023)
+      if (delta == 0) delta = 1; //Avoid div zero -> int overflow
+      //Check overflow: (v2)=1023 * _r1=10 = 10230 => safe
+      return (v2 * _r1) / delta; //Return R2 in kOhm (as int)
     }
 };
 
