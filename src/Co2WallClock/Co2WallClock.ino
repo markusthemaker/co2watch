@@ -12,12 +12,14 @@ const byte PIN_BUZZER = 13;
 const byte PIN_LDR = A7;
 const byte PIN_LEDRING = 4;
 const byte PIN_BUTTON = 2;  //Use a pin that works for interrupts
-const byte PIN_RED_LED = 9;
-const byte PIN_GREEN_LED = 10;
+const byte PIN_RED_LED = 10;
+const byte PIN_GREEN_LED = 9;
 
 //CO2 concentration is affected by altitude
 //Altitude compensation for CO2 measurement - update for your setting
 const word altitude = 250;
+//Force calibration based on a reliable and known reference; only use if better than factory default
+const word refCO2Value = 0; //0:No calibration; 400-2000: use trusted reference value
 
 //Setting a flag when inerrupt is detected is an effective way to debounce a button
 volatile bool buttonInterrupt = false;
@@ -40,6 +42,11 @@ LEDRing ledRing(24, PIN_LEDRING, 65536 * 2 / 3); //Hue is a 16 bit number; value
 void setup() {
   Serial.begin(9600);
 
+  //Show LED0 for 1s
+  ledRing.setBrightness(DayPeriod::DAY);
+  ledRing.setLed(0);
+  delay(1000);
+
   //Button as interrupt
   digitalWrite(PIN_BUTTON, HIGH); //pullup
   //Button pulls to GND - detect falling edge as interrupt
@@ -52,7 +59,17 @@ void setup() {
     Serial.println("SCD30 init failed. Freezing...");
     while (true);
   }
+
+  //Relevant when used at alitude
   sensor.setAltitudeCompensation(altitude); //Set altitude of the sensor in m
+  
+  //Force Calibration based on a known reference value; only use if better than factory default
+  if(refCO2Value >= 400) {
+    delay(120000); // 2 min CO2 sensor warm-up
+    sensor.setForcedRecalibrationFactor(refCO2Value);
+    Serial.println("Calibration completed; disable calibration with refCO2Value=0 and re-flash Arduino");
+    while (true);
+  }
 }
 
 //Used by attachInterrupt() to track status
@@ -122,5 +139,5 @@ void loop() {
     }
   }
 
-  delay(250);
+  delay(1000);
 }
