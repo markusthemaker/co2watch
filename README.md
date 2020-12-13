@@ -41,15 +41,15 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 - **Audible:** Integrated buzzer warns when reaching 1000 ppm 
 - **Do Not Disturb:** Buzzer can be switched on/off with status LED on watch face
 
-## Parts List (approx. 90-100€)
+## Parts List (~100€)
 - Picture Frame (~10€): https://www.amazon.de/dp/B07D4MQ9ZR
 - Arduino Nano v3.0 Microcontroller Board (clone) (~6€): https://www.amazon.de/dp/B078SBBST6/
-- Sensor: Sensirion SCD 30 (~50€): https://shop.watterott.com/Sensirion-SCD30-CO2-Kohlendioxid-Sensor
+- High-precision Sensor: Sensirion SCD 30 (~50€): https://shop.watterott.com/Sensirion-SCD30-CO2-Kohlendioxid-Sensor
 - 24 NeoPixel LED ring WS2812 (Adafruit) 5.3 cm (~11€): https://www.amazon.de/dp/B07QLMPV6S
 - 3 mm dual color red/green 3 pin LED (Common Cathode LED) (~1€)
 - Resistors: 1x 330Ω, 1x470Ω, 1x10kΩ (<1€)
 - Capacitor: 470-1000µF/6.3V (<1€)
-- Light Sensitive Resistor: 	Light: 20-30 KΩ. Darkness: 1 MΩ (~1€)
+- Light Sensitive Resistor: Light: 20-30 KΩ. Darkness: 1 MΩ (~1€)
 - Push Button Switch 6x6mm (<1€)
 - Buzzer (<1€)
 - Micro USB power supply (~5€)
@@ -67,8 +67,8 @@ The buzzer can be turned off/on with a small button that is located nearby the b
 ## 3D CAD Design & 3D Print
 - Designed for LEDs to function like an “analogue wach”, hosting all components, while fitting into the picture frame. CO2 sensor mount with open air vents. Design principle: “quick & dirty”, but functional ;)
 - Print with silver-like PLA. Do not use white, otherwise LED chamber separation is not perfect due to some translucency. 
-- Link to my 3D CAD design: [Onshape](https://cad.onshape.com/documents/eb4fe6fd7e007a0c0a804747/w/9b61381e8207a3fee56fc157/e/aed4f8af9d3ca59d0a31d5e0)
-- Link to STLs: [3D_STL_Files](3D_STL_Files/)
+- Link to my 3D CAD design: [Onshape](https://cad.onshape.com/documents/eb4fe6fd7e007a0c0a804747/w/9b61381e8207a3fee56fc157/e/aed4f8af9d3ca59d0a31d5e0) Branches: Arduino & ESP - choose the right one for your purpose.
+- Link to STLs: [3D_STL_Files](3D_STL_Files/) for Arduino and ESP8266 (the latter has not been printed/tested)
 
 ![Image](img/cad.jpg)
 
