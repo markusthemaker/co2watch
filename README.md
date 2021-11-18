@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="mVb4j9CEitCwDcsNqLN-e2j8hI3UwMoKpGTOJ4NhaoY" />
+
 # CO2 Wall Clock 
 ## Arduino / ESP powered CO2 Monitor for Schools, Offices, and Private Buildings
 ### Proper ventilation not only ensures well-being, but significantly reduces risk of SARS-CoV-2 infection
